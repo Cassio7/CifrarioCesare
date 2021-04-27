@@ -24,7 +24,7 @@ void cesare(char *stringa){
         printf("%c",stringa[c]);
       }
       else{
-/*la if controllara se il carattere ascii + k sfora 122, se è così metto t=26 di modo che
+/*la if controlla se il carattere ascii + k sfora 122, se è così metto t=26 di modo che
  rientro nel range dei caratteri minuscoli, sottraendo t quando vado a stampare.
  E' necessario per il cifrario di Cesare perchè dopo "z" si riparte da "a" (123-26=97)*/
       if(stringa[c]+k>122){
