@@ -141,3 +141,4 @@ corrispondere al numero vicino case.*/
                break;//indica la fine del case
              }
 }
+//| (• ◡•)|Cassio(❍ᴥ❍ʋ)
